@@ -3,7 +3,7 @@ import logging
 import click
 import numpy as np
 from os.path import abspath, dirname, join
-from gym.spaces import Tupleds
+from gym.spaces import Tuple
 
 from mae_envs.viewer.env_viewer import EnvViewer
 from mae_envs.wrappers.multi_agent import JoinMultiAgentActions
